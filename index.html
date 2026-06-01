@@ -64,8 +64,8 @@
   /* ---------- NAV ---------- */
   header{position:sticky;top:0;z-index:60;backdrop-filter:blur(12px);background:rgba(248,244,237,.82);border-bottom:1px solid var(--line)}
   nav{display:flex;align-items:center;justify-content:space-between;padding:16px 28px;max-width:1280px;margin:0 auto}
-  .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces';font-size:1.28rem;color:var(--green);letter-spacing:-.02em}
-  .brand .mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--rose-soft),var(--rose));display:grid;place-items:center;color:#fff;font-family:'Fraunces';font-size:1.1rem;box-shadow:inset 0 -4px 10px rgba(0,0,0,.15)}
+  
+  
   .navlinks{display:flex;gap:30px;align-items:center}
   .navlinks a{font-size:.93rem;font-weight:500;color:var(--ink-soft);transition:color .2s}
   .navlinks a:hover{color:var(--green)}
@@ -202,7 +202,7 @@
   /* ---------- FOOTER ---------- */
   footer{background:var(--green);color:#cdd8ce;padding:60px 0 30px}
   .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:34px;margin-bottom:40px}
-  footer .brand{color:var(--cream)}
+  footer 
   footer h5{font-family:'Manrope';font-weight:700;color:var(--cream);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px}
   footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
   footer ul a{font-size:.9rem;color:#cdd8ce;transition:color .2s}
@@ -236,14 +236,16 @@
     .contact-grid,.modal{padding:30px 24px}
     .hero{padding:60px 0 50px}
   }
-</style>
+
+  .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces';font-size:1.28rem;color:var(--green);letter-spacing:-.02em}.brand .mark{display:inline-flex;align-items:center;justify-content:center;min-width:54px;height:38px;padding:0 12px;border-radius:100px;background:transparent;color:var(--rose);border:1.75px solid var(--rose);font-family:'Fraunces',serif;font-size:.95rem;font-weight:600;letter-spacing:.06em;flex:none;box-sizing:border-box}footer .brand .mark{color:var(--rose-soft);border-color:var(--rose-soft)}
+  </style>
 </head>
 <body>
 
 <!-- ===== NAV ===== -->
 <header>
   <nav>
-    <a href="#top" class="brand"><span class="mark">R</span> A Bright Rose</a>
+    <a href="#top" class="brand"><span class="mark">ABR</span> A Bright Rose</a>
     <div class="navlinks" id="navlinks">
       <a href="#services">Services</a>
       <a href="#training">Training</a>
@@ -537,7 +539,7 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="#top" class="brand"><span class="mark">R</span> A Bright Rose</a>
+        <a href="#top" class="brand"><span class="mark">ABR</span> A Bright Rose</a>
         <p class="tag">Detail-driven commercial cleaning &amp; facility care for West Palm Beach and South Florida.</p>
         <div class="socials">
           <a href="https://www.facebook.com/profile.php?id=100090993361965" aria-label="Facebook" target="_blank" rel="noopener">f</a>
