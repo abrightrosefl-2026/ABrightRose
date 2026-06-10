@@ -187,29 +187,7 @@
   .hero-card ul{list-style:none;margin-top:18px;display:flex;flex-direction:column;gap:12px}
   .hero-card li{display:flex;gap:12px;align-items:flex-start;font-size:.96rem;color:#dfe8e0}
   .hero-card li .tick{flex:none;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.15);display:grid;place-items:center;font-size:.7rem;color:var(--rose-soft)}
-<!-- ==========================================================
-     A BRIGHT ROSE — "FOR CONTRACTORS" HOMEPAGE BANNER
-     Paste this anywhere in your existing index.html — ideally
-     right below your hero section. All styles are inline so it
-     won't conflict with your current CSS.
-     ========================================================== -->
-
-<section style="background:#F7ECEF; border-top:1px solid #E9CFD8; border-bottom:1px solid #E9CFD8; padding:28px 24px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
-  <div style="max-width:1040px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;">
-    <div>
-      <p style="margin:0 0 4px; font-size:0.78rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#4F7259;">Run a cleaning business?</p>
-      <p style="margin:0; font-size:1.05rem; color:#2A2522;">Get our free bidding guides and templates — from a company with a 98% client renewal rate.</p>
-    </div>
-    <a href="/resources/" style="display:inline-block; background:#93304D; color:#fff; text-decoration:none; font-weight:600; font-size:0.95rem; padding:11px 24px; border-radius:999px; white-spac[...]
-  </div>
-</section>
-
-<!-- ==========================================================
-     NAV LINK — add this to your existing navigation menu,
-     styled to match your other nav links:
-
-     <a href="/resources/">Resources</a>
-     ========================================================== -->
+  
   /* ---------- TRUST BAR ---------- */
   .trust{background:var(--green);color:var(--cream);padding:18px 0}
   .trust .wrap{display:flex;flex-wrap:wrap;gap:14px 34px;justify-content:center;align-items:center}
@@ -223,17 +201,17 @@
 
   /* ---------- SERVICES ---------- */
   .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  .svc{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidde[...]
+  .svc{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden}
   .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:var(--rose-soft)}
   .svc .ic{width:48px;height:48px;border-radius:12px;background:var(--green-tint);display:grid;place-items:center;margin-bottom:18px;color:var(--green)}
   .svc h3{font-size:1.28rem;color:var(--green);margin-bottom:8px}
   .svc p{font-size:.95rem;color:var(--ink-soft)}
-  .svc .tag{position:absolute;top:18px;right:18px;font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);background:var(--rose-tint);padding:4px 10px;bord[...]
+  .svc .tag{position:absolute;top:18px;right:18px;font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);background:var(--rose-tint);padding:4px 10px;border-radius:6px}
 
   /* ---------- TRAINING ---------- */
   #training{background:linear-gradient(180deg,var(--cream),var(--green-tint))}
   .train-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
-  .train-intro .badge{display:inline-flex;align-items:center;gap:8px;background:var(--white);border:1px solid var(--line);border-radius:100px;padding:8px 16px;font-size:.8rem;font-weight:600;colo[...]
+  .train-intro .badge{display:inline-flex;align-items:center;gap:8px;background:var(--white);border:1px solid var(--line);border-radius:100px;padding:8px 16px;font-size:.8rem;font-weight:600;color:var(--green)}
   .modules{display:flex;flex-direction:column;gap:14px}
   .module{background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:box-shadow .3s}
   .module:hover{box-shadow:var(--shadow-sm)}
@@ -308,14 +286,13 @@
   form{display:flex;flex-direction:column;gap:14px}
   form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   label{font-size:.8rem;font-weight:600;color:var(--ink-soft);display:block;margin-bottom:5px}
-  input,textarea,select{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-family:'Manrope';font-size:.92rem;background:var(--cream);color:var(--ink);transition:bor[...]
+  input,textarea,select{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-family:'Manrope';font-size:.92rem;background:var(--cream);color:var(--ink);transition:border-color .2s}
   input:focus,textarea:focus,select:focus{outline:none;border-color:var(--rose)}
   textarea{resize:vertical;min-height:90px}
 
   /* ---------- FOOTER ---------- */
   footer{background:var(--green);color:#cdd8ce;padding:60px 0 30px}
   .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:34px;margin-bottom:40px}
-  footer 
   footer h5{font-family:'Manrope';font-weight:700;color:var(--cream);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px}
   footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
   footer ul a{font-size:.9rem;color:#cdd8ce;transition:color .2s}
@@ -350,15 +327,16 @@
     .hero{padding:60px 0 50px}
   }
 
-  .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces';font-size:1.28rem;color:var(--green);letter-spacing:-.02em}.brand .mark{display:inline-flex;align-items:center;justify-con[...]
-  </style>
+  .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces';font-size:1.28rem;color:var(--green);letter-spacing:-.02em}
+  .brand .mark{display:inline-flex;align-items:center;justify-content:center}
+</style>
 </head>
 <body>
 
 <!-- ===== NAV ===== -->
 <header>
   <nav>
-    <a href="#top" class="brand"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIbGNtcwIQAABtbnRyUkdCIFhZWiAH4gADABQACQAOAB1hY3NwTVNGVAAAAABzYXdzY3RybAAAA[...]
+    <a href="#top" class="brand"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIbGNtcwIQAABtbnRyUkdCIFhZWiAH4gADABQACQAOAB1hY3NwTVNGVAAAAABzYXdzY3Ryb[...]
     <div class="navlinks" id="navlinks">
       <a href="#services">Services</a>
       <a href="#training">Training</a>
@@ -454,14 +432,14 @@
       </div>
       <div class="modules reveal">
         <div class="module">
-          <div class="module-head"><div class="module-num">01</div><div><h4>Green Cleaning &amp; Chemical Safety</h4><div class="meta">Foundations · 45 min</div></div><div class="chev">▼</div>[...]
+          <div class="module-head"><div class="module-num">01</div><div><h4>Green Cleaning &amp; Chemical Safety</h4><div class="meta">Foundations · 45 min</div></div><div class="chev">▼</div></div>
           <div class="module-body">
             <p>How to clean effectively with Green Seal and EPA Safer Choice products, why proper dilution matters, and how to protect both occupants and the environment.</p>
             <ul><li>Reading SDS sheets &amp; product labels</li><li>Correct dilution ratios &amp; dwell times</li><li>Color-coded microfiber systems to prevent cross-contamination</li></ul>
           </div>
         </div>
         <div class="module">
-          <div class="module-head"><div class="module-num">02</div><div><h4>Disinfection &amp; Infection Control</h4><div class="meta">Health Settings · 60 min</div></div><div class="chev">▼</[...]
+          <div class="module-head"><div class="module-num">02</div><div><h4>Disinfection &amp; Infection Control</h4><div class="meta">Health Settings · 60 min</div></div><div class="chev">▼</div></div>
           <div class="module-body">
             <p>The clean-then-disinfect sequence for medical, dental, and daycare environments, including high-touch point mapping and electrostatic fogging best practices.</p>
             <ul><li>High-touch surface mapping</li><li>Contact times that actually work</li><li>Fogging &amp; electrostatic application safety</li></ul>
@@ -475,7 +453,7 @@
           </div>
         </div>
         <div class="module">
-          <div class="module-head"><div class="module-num">04</div><div><h4>Quality Assurance &amp; Inspections</h4><div class="meta">Standards · 40 min</div></div><div class="chev">▼</div></d[...]
+          <div class="module-head"><div class="module-num">04</div><div><h4>Quality Assurance &amp; Inspections</h4><div class="meta">Standards · 40 min</div></div><div class="chev">▼</div></div>
           <div class="module-body">
             <p>How ABR documents every visit so nothing slips. Checklists, photo verification, and inspection scoring that keep service consistent across crews.</p>
             <ul><li>Building-specific cleaning checklists</li><li>Routine inspection scoring</li><li>Closing the loop on client feedback</li></ul>
@@ -695,7 +673,7 @@
   document.getElementById('quoteForm').addEventListener('submit',function(e){
     e.preventDefault();
     const f=e.target;
-    const body=`Name: ${f.name.value}%0D%0APhone: ${f.phone.value}%0D%0AEmail: ${f.email.value}%0D%0AFacility type: ${f.facility.value}%0D%0AAddress: ${f.address.value}%0D%0A%0D%0A${f.message.val[...]
+    const body=`Name: ${f.name.value}%0D%0APhone: ${f.phone.value}%0D%0AEmail: ${f.email.value}%0D%0AFacility type: ${f.facility.value}%0D%0AAddress: ${f.address.value}%0D%0A%0D%0A${f.message.value}`;
     window.location.href=`mailto:Hello@abrightrose.com?subject=Free Quote Request - ${encodeURIComponent(f.name.value)}&body=${body}`;
     document.getElementById('formNote').textContent='Opening your email app to send. Prefer to talk? Call (561) 202-7885.';
   });
