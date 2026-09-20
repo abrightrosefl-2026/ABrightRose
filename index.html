@@ -125,6 +125,62 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does A Bright Rose Cleaning Services do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Bright Rose Cleaning Services is a commercial-only cleaning company in West Palm Beach, FL. We provide janitorial service, sanitation, and disinfection for medical and dental offices, daycares, HOA and COA common areas, hospitality venues, and professional offices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All of Palm Beach County, including West Palm Beach, Palm Beach, Palm Beach Gardens, Jupiter, Wellington, Royal Palm Beach, Lake Worth Beach, Boynton Beach, Delray Beach, and Boca Raton."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you clean homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A Bright Rose is commercial-only, so our crews, training, and products are built for business facilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your products safe for daycares and medical offices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We use Green Seal-certified and EPA Safer Choice products for general cleaning and EPA-registered disinfectants for high-touch areas, safe for children, patients, and staff."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Bright Rose is fully insured and provides a certificate of insurance before service begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get a quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call (561) 202-7885, email Hello@abrightrose.com, or use the form below to book a free on-site walkthrough and custom quote."
+      }
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -350,7 +406,11 @@
   }
 
   .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces';font-size:1.28rem;color:var(--green);letter-spacing:-.02em}.brand .mark{display:inline-flex;align-items:center;justify-content:center;min-width:54px;height:38px;padding:0 12px;border-radius:100px;background:transparent;color:var(--rose);border:1.75px solid var(--rose);font-family:'Fraunces',serif;font-size:.95rem;font-weight:600;letter-spacing:.06em;flex:none;box-sizing:border-box}footer .brand .mark{color:var(--rose-soft);border-color:var(--rose-soft)}
-  </style>
+    .faq-list{display:flex;flex-direction:column;gap:12px;max-width:860px}
+  .faq-d{background:#fff;border:1px solid rgba(31,59,47,.12);border-radius:14px;padding:16px 20px}
+  .faq-d summary{cursor:pointer;font-weight:600;color:var(--green);font-size:1.02rem}
+  .faq-d p{margin-top:10px;color:var(--ink-soft);font-size:.96rem}
+</style>
 </head>
 <body>
 
@@ -607,6 +667,18 @@
         <div class="box"><b>24/7</b><span>Account responsiveness</span></div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Common questions</span>
+      <h2>Commercial cleaning in Palm Beach County, answered</h2>
+    </div>
+    <div class="faq-list reveal"><details class="faq-d"><summary>What does A Bright Rose Cleaning Services do?</summary><p>A Bright Rose Cleaning Services is a commercial-only cleaning company in West Palm Beach, FL. We provide janitorial service, sanitation, and disinfection for medical and dental offices, daycares, HOA and COA common areas, hospitality venues, and professional offices.</p></details><details class="faq-d"><summary>What areas do you serve?</summary><p>All of Palm Beach County, including West Palm Beach, Palm Beach, Palm Beach Gardens, Jupiter, Wellington, Royal Palm Beach, Lake Worth Beach, Boynton Beach, Delray Beach, and Boca Raton.</p></details><details class="faq-d"><summary>Do you clean homes?</summary><p>No. A Bright Rose is commercial-only, so our crews, training, and products are built for business facilities.</p></details><details class="faq-d"><summary>Are your products safe for daycares and medical offices?</summary><p>Yes. We use Green Seal-certified and EPA Safer Choice products for general cleaning and EPA-registered disinfectants for high-touch areas, safe for children, patients, and staff.</p></details><details class="faq-d"><summary>Are you insured?</summary><p>Yes. A Bright Rose is fully insured and provides a certificate of insurance before service begins.</p></details><details class="faq-d"><summary>How do I get a quote?</summary><p>Call (561) 202-7885, email Hello@abrightrose.com, or use the form below to book a free on-site walkthrough and custom quote.</p></details></div>
+    <p style="margin-top:18px;font-size:.92rem">More answers on our <a href="faq.html" style="color:var(--rose);font-weight:600">full FAQ page</a>.</p>
   </div>
 </section>
 
