@@ -152,3 +152,14 @@ a:focus-visible{outline:3px solid var(--rose);outline-offset:2px}
   .hero{padding:52px 0 40px}
   body{font-size:16px}
 }
+
+/* Guide pages: breadcrumb + related links */
+.crumb{font-size:.82rem;color:var(--muted);margin-bottom:10px}
+.crumb a{color:var(--muted)}
+.rel-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:14px 0 6px;max-width:700px}
+.rel-card{display:block;background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 16px;text-decoration:none;color:var(--ink);font-size:.95rem;line-height:1.35}
+.rel-card:hover{border-color:var(--rose)}
+.rel-card .cat{display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--leaf);margin-bottom:6px}
+.article table{border-collapse:collapse;margin:18px 0 24px;max-width:66ch;width:100%;font-size:.95rem}
+.article th,.article td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+.article th{background:#fff}
