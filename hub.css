@@ -46,6 +46,8 @@ a:focus-visible{outline:3px solid var(--rose);outline-offset:2px}
   font-family:"Fraunces",serif;font-weight:700;font-size:1.05rem;
   color:var(--ink);text-decoration:none;letter-spacing:.01em;
 }
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand img{width:36px;height:36px;display:block;flex:none}
 .brand .hub{color:var(--rose)}
 .topnav{display:flex;gap:22px;flex-wrap:wrap}
 .topnav a{
