@@ -294,6 +294,31 @@
         "@type": "ListItem",
         "position": 53,
         "url": "https://www.abrightrose.com/church-cleaning-checklist.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 54,
+        "url": "https://www.abrightrose.com/dust-or-vacuum-first-cleaning-order.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 55,
+        "url": "https://www.abrightrose.com/cleaning-chemicals-never-to-mix.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 56,
+        "url": "https://www.abrightrose.com/can-you-clean-everything-with-vinegar.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 57,
+        "url": "https://www.abrightrose.com/common-cleaning-questions-answered.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 58,
+        "url": "https://www.abrightrose.com/germiest-spots-office-break-room.html"
       }
     ]
   }
@@ -464,7 +489,7 @@
   <div class="wrap">
     <div class="tools-row">
       <input type="search" id="q" placeholder="Search guides, e.g. pricing, insurance, restrooms" aria-label="Search guides" autocomplete="off">
-      <select id="topic" aria-label="Filter by topic"><option value="">All topics (53)</option><option value="checklists-cleaning-basics">Checklists &amp; Cleaning Basics (2)</option><option value="hiring-vendors">Hiring &amp; Vendors (13)</option><option value="pricing-contracts">Pricing &amp; Contracts (9)</option><option value="scope-standards">Scope &amp; Standards (11)</option><option value="specialty-facilities">Specialty Facilities (10)</option><option value="risk-compliance">Risk &amp; Compliance (6)</option><option value="quality-service-problems">Quality &amp; Service Problems (2)</option></select>
+      <select id="topic" aria-label="Filter by topic"><option value="">All topics (58)</option><option value="checklists-cleaning-basics">Checklists &amp; Cleaning Basics (2)</option><option value="hiring-vendors">Hiring &amp; Vendors (13)</option><option value="pricing-contracts">Pricing &amp; Contracts (9)</option><option value="scope-standards">Scope &amp; Standards (11)</option><option value="specialty-facilities">Specialty Facilities (10)</option><option value="risk-compliance">Risk &amp; Compliance (6)</option><option value="quality-service-problems">Quality &amp; Service Problems (2)</option></select>
       <button type="button" class="clear" id="clear" style="display:none">Clear</button>
     </div>
     <div class="chips" aria-label="Quick topics"><button type="button" class="chip" data-g="checklists-cleaning-basics" aria-pressed="false">Checklists &amp; Cleaning Basics</button><button type="button" class="chip" data-g="hiring-vendors" aria-pressed="false">Hiring &amp; Vendors</button><button type="button" class="chip" data-g="pricing-contracts" aria-pressed="false">Pricing &amp; Contracts</button><button type="button" class="chip" data-g="scope-standards" aria-pressed="false">Scope &amp; Standards</button><button type="button" class="chip" data-g="specialty-facilities" aria-pressed="false">Specialty Facilities</button><button type="button" class="chip" data-g="risk-compliance" aria-pressed="false">Risk &amp; Compliance</button><button type="button" class="chip" data-g="quality-service-problems" aria-pressed="false">Quality &amp; Service Problems</button></div>
@@ -542,7 +567,7 @@
     chips.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.g===g))});
     extra.forEach(function(e){e.style.display=filtering?'none':''});
     empty.style.display=shown?'none':'block';
-    cnt.textContent=filtering?(shown+' of 53 guides'):('53 guides across 7 topics');
+    cnt.textContent=filtering?(shown+' of 58 guides'):('58 guides across 7 topics');
     clr.style.display=filtering?'':'none';
   }
   q.addEventListener('input',apply);sel.addEventListener('change',apply);
